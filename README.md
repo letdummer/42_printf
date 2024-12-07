@@ -1,6 +1,6 @@
 <!-- INTRODUCTION -->
 
-## INTRODUCTION 
+## 📝 INTRODUCTION 
 
 + **OBJECTIVE**  
   To create a library that reproduces the printf function.
@@ -30,7 +30,7 @@ Check the complete [subject](https://github.com/letdummer/42_ft_printf/blob/main
 
 <!-- HOW TO USE -->
 
-## HOW TO USE  
+## ⚙️ HOW TO USE  
 + Clone the repository
 ```
 git clone git@github.com:letdummer/42_ft_printf.git
@@ -66,7 +66,7 @@ make
 <!-- LIST OF REFERENCIES -->
 <br>  
 
-## References
+## 🔎 References
 
 [Variadic functions](https://dev.to/pauljlucas/variadic-functions-in-c-53ml)  
 [Tests of paulo-santana](https://github.com/paulo-santana/ft_printf_tester)  
