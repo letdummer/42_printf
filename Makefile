@@ -1,16 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: ldummer- <ldummer-@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/11/23 11:42:33 by ldummer-          #+#    #+#              #
-#    Updated: 2024/11/23 11:56:24 by ldummer-         ###   ########.fr        #
+#          ##\     /##      #|  #  /   ####  ####  *  #    ####                #
+#          ## \   / ##     # |  # /    #     #     #  #    #                   #
+#          ##  \ /  ##    #__|  # \    ###   ####  #  #    ###                 #
+#          ##       ##   #   |  #  \   #     #     #  #    #                   #
+#          ##       ##  #    |  #   \  ####  #     #  #### ####      <><       #
 #                                                                              #
 # **************************************************************************** #
 
-# Defining ANSI colors
+############## Defining ANSI colors ###############
+
 RED_BOLD	  := $(shell echo "\033[1;31m")
 GREEN_BOLD	:= $(shell echo "\033[1;32m")
 PURPLE  := $(shell echo "\033[0;35m")
@@ -19,7 +18,8 @@ CYAN	:= $(shell echo "\e[0;36m")
 CYAN_BOLD	:= $(shell echo "\e[1;36m")
 RESET	:= $(shell echo "\033[0m")
 
-# Functions to printf colors
+############## Functions to printf colors ###############
+
 text = @echo "$(PURPLE)$(1)$(RESET)"
 warn = @echo "$(BLUE)$(1)$(RESET)"
 error = @echo "$(RED_BOLD)$(1)$(RESET)"
@@ -28,16 +28,19 @@ highligth = @echo "$(CYAN)$(1)$(RESET)"
 highligth_bold = @echo "$(CYAN_BOLD)$(1)$(RESET)"
 
 #################### Files #####################
+
 NAME= libftprintf.a
 
 #SRC_DIR = $(wildcard *.c)
 OBJ_DIR = $(SRC_DIR:.c=.o)
 
 ################## Compilation ##################
+
 CC= cc
 CFLAGS= -Wall -Wextra -Werror
 
 ################### Commands ###################
+
 RM= rm -f
 
 SRC_DIR= ft_printf.c ft_printf_utils.c
@@ -57,6 +60,7 @@ $(NAME): $(OBJ_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 ################ Clean-up Rules ################
+
 clean:
 	$(call text, "Removing object files [...]")
 	@$(RM) $(OBJ_DIR)
@@ -87,6 +91,7 @@ manual:
 	
 
 #################### Help #####################
+
 help:
 	@echo "$(CYAN_BOLD)\n\tAVAILABLE OPTIONS:$(RESET)"
 	@echo "$(CYAN_BOLD)\t---------------------------------$(RESET)"
