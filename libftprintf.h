@@ -6,7 +6,7 @@
 /*   By: ldummer- <ldummer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 11:42:27 by ldummer-          #+#    #+#             */
-/*   Updated: 2024/11/23 11:45:48 by ldummer-         ###   ########.fr       */
+/*   Updated: 2025/02/27 21:55:55 by ldummer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <stdarg.h>
-
 
 int	ft_putchar(char c);
 int	ft_putstr(char *str);

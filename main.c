@@ -1,7 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ldummer- <ldummer-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/27 21:56:22 by ldummer-          #+#    #+#             */
+/*   Updated: 2025/02/27 21:56:49 by ldummer-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libftprintf.h"
 #include <stdio.h>
 #include <limits.h>
-
+/* 
 int     main(void)
 {
     char *str_test;        
@@ -60,12 +72,17 @@ printf ("\t  OR: %i\n",    printf("       x %x    ", 31));
 printf ("\t  MY: %i\n", ft_printf("only text, only text!"));
 printf ("\t  OR: %i\n",    printf("only text, only text!"));
 
-printf ("\t\t  MY %i\n", ft_printf("MX %c %p %d %s", 'c', (void *)32132, 313, "str"));
-printf ("\t\t  OR %i\n", printf("MX %c %p %d %s", 'c', (void *)32132, 313, "str"));
+printf ("\t\t  MY %i\n", ft_printf("MX %c %p %d %s", 'c',
+	(void *)32132, 313, "str"));
+printf ("\t\t  OR %i\n", printf("MX %c %p %d %s", 'c',
+	(void *)32132, 313, "str"));
 
-printf ("\t  MY: %i\n", ft_printf("MIX 2%i %u %X %x %%\t", -313, 31313131, 31, 31));
-printf ("\t  OR: %i\n", printf("MIX 2%i %u %X %x %%\t", -313, 31313131, 31, 31));
+printf ("\t  MY: %i\n", ft_printf("MIX 2%i %u %X %x %%\t", -313,
+	31313131, 31, 31));
+printf ("\t  OR: %i\n", printf("MIX 2%i %u %X %x %%\t", -313,
+	31313131, 31, 31));
 
 printf ("\t  MY: %i\n", ft_printf("%s", str_test));
 printf ("\t  OR: %i\n", printf("%s", str_test));
 }
+ */
