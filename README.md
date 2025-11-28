@@ -24,7 +24,6 @@
   - The project will be compiled with the flags **-Wall -Wextra -Werror**
   - Must at least contain the rules **$(NAME), all, clean, fclean and re**
 
-Check the complete [subject](https://github.com/letdummer/42_ft_printf/blob/main/subject/en.subject.pdf) (version 10 - nov/2024).
 
 <!-- !END! INTRODUCTION -->
 
